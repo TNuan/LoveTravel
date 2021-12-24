@@ -1,2 +1,2 @@
 # LoveTravel
-asfd
+project static web
