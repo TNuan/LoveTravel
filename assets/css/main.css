@@ -41,12 +41,23 @@
     position: relative;
 }
 
+.navbar__list li:hover .subnav__list{
+    display: inline;
+}
+
 
 .subnav__list {
     display: none;
+    position: absolute;
 }
+
+
 
 .navbar, .subnav__list, .subnav {
     list-style: none;
+}
+
+.subnav {
+    position: absolute;
 }
 
