@@ -1,0 +1,27 @@
+:root {
+    --yellows-color: #ffd205;
+    --red-color: #f76570;
+    --purple-color: #ba71da;
+    --blue-color: #14b9d5;
+    --green-color: #1bbc9b;
+
+    --black-color: #555555;
+    --white-color: #fff;
+
+    --text-color: #9a9a9a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
