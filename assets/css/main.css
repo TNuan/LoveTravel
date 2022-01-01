@@ -2,8 +2,14 @@
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 104px;
-    position: fixed;
+    position: sticky;
+    z-index: 2;
     padding: 20px 50px;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
 }
 
 .navbar {
@@ -41,7 +47,7 @@
     position: relative;
 }
 
-.navbar__list li:hover .subnav__list{
+.navbar__list > li:hover .subnav__list{
     display: inline;
 }
 
@@ -49,15 +55,64 @@
 .subnav__list {
     display: none;
     position: absolute;
+    top: 60px;
+    left: -15px;
+    width: 190px;
+    background-color: var(--white-color);
+    box-shadow: 0 4px 6px #fff;
 }
 
+.subnav__list li {
+    padding: 15px 25px;
+    border-bottom: 1px solid rgba(236, 234, 234, 0.623);
+}
 
+.subnav__list li:hover {
+    background-color: rgba(233, 233, 233, 0.466);
+}
+
+.subnav__list a {
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 100%;
+    color: var(--text-color);
+}
 
 .navbar, .subnav__list, .subnav {
     list-style: none;
 }
 
-.subnav {
-    position: absolute;
+.subnav__list > li:hover .subnav {
+    display: inline;
 }
 
+.subnav {
+    position: absolute;
+    width: 190px;
+    left: 200px;
+    top: 0;
+    background-color: var(--white-color);
+    box-shadow: 0 4px 6px #fff;
+    display: none;
+}
+
+.subnav::after {
+    content: '';
+    background-color: transparent;
+    position: absolute;
+    width: 12px;
+    height: 100%;
+    top: 0;
+    left: -12px;
+}
+
+
+
+/* --- */
+.slider {
+    position: relative;
+    /* margin-top: 46px; */
+    top: -190px;
+    padding-top: 80%;
+    background: url('../img/background-header.jpg') center / cover no-repeat;
+}
