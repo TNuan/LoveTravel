@@ -7,13 +7,22 @@
     padding: 20px 50px;
 }
 
+.header .row {
+    justify-content: space-between;
+}
+
 .logo {
-    height: 100%;
-    width: 100%;
+    /* position: absolute;
+    top: 0; */
+    height: 64px;
+    width: 140px;
+    background: center /contain no-repeat;
 }
 
 .navbar {
     width: 80%;
+    display: flex;
+    align-items: center;
 }
 
 .navbar a {
@@ -32,13 +41,12 @@
 .navbar__list > li {
     display: inline-block;
     height: 100%;
-
 }
 
 .navbar__list > li > a {
     text-transform: uppercase;
     font-size: 1.5rem;
-    padding: 25px 0;
+    padding: 25px 15px;
     text-align: center;
     line-height: 64px;
 }
@@ -65,6 +73,13 @@
 .subnav__list li {
     padding: 15px 25px;
     border-bottom: 1px solid rgba(236, 234, 234, 0.623);
+    display: flex;
+    align-items: center;
+}
+
+.subnav__list li i {
+    font-size: 1.5rem;
+    color: var(--text-color);
 }
 
 .subnav__list li:hover {
@@ -106,6 +121,37 @@
     left: -12px;
 }
 
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu i {
+    color: var(--white-color);
+    font-size: 2.8rem;
+}
+
+.sticker {
+    color: var(--white-color);
+    font-size: 1rem;
+    padding: 0px 6px;
+    border-radius: 3px;
+}
+
+
+.btn {
+    height: 36px;
+    background-color: var(--purple-color);
+    border-radius: 25px;
+}
+
+.btn a{
+    padding: 12px 15px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
 
 
 /* --- */
