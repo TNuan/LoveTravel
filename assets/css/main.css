@@ -19,6 +19,10 @@
     background: center /contain no-repeat;
 }
 
+.logo a {
+
+}
+
 .navbar {
     width: 80%;
     display: flex;
@@ -159,6 +163,29 @@
     position: relative;
     /* margin-top: 46px; */
     top: -190px;
-    padding-top: 80%;
+    padding-top: 40%;
+    padding-bottom: 40%;
     background: url('../img/background-header.jpg') center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__content {
+
+}
+
+.slider__content h1 {
+    color: var(--white-color);
+    font-size: 6rem;
+}
+
+.slider__content h6 {
+    color: var(--white-color);
+    font-size: 2rem;
+}
+
+.slider__search {
+    background-color: var(--white-color);
+
 }
