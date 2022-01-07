@@ -20,7 +20,9 @@
 }
 
 .logo a {
-
+    /* width: 100%;
+    height: 100%; */
+    text-decoration: none;
 }
 
 .navbar {
@@ -180,6 +182,23 @@
     color: var(--white-color);
     font-size: 6rem;
     text-align: center;
+}
+
+.text-highlight {
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.text-highlight::after {
+    background-color: var(--purple-color);
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: 6px;
+    z-index: -1;
 }
 
 .slider__content h6 {
