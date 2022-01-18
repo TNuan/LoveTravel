@@ -1,5 +1,6 @@
 :root {
     --yellows-color: #ffd205;
+    --orange-color: #f3a46b;
     --red-color: #f76570;
     --purple-color: #ba71da;
     --blue-color: #14b9d5;
@@ -47,4 +48,16 @@ html {
 
 .btn-style2--green a {
     color: var(--white-color);
+}
+
+.btn-style2--white {
+    background-color: var(--white-color);
+}
+
+.btn-discover-01 a {
+    color: var(--orange-color);
+}
+
+.btn-discover-02 a {
+    color: var(--green-color);
 }
