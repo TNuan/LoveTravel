@@ -184,22 +184,8 @@
     text-align: center;
 }
 
-.text-highlight {
-    position: relative;
-    text-decoration: none;
-    z-index: 1;
-}
 
-.text-highlight::after {
-    background-color: var(--purple-color);
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 5px;
-    left: 0;
-    bottom: 6px;
-    z-index: -1;
-}
+
 
 .slider__content h6 {
     margin-top: 50px;
@@ -303,32 +289,6 @@
 .container {
     margin-top: -130px;
 }
-
-.proposal__title {
-    text-align: center;
-    margin-bottom: 35px;
-}
-
-.proposal__title h3 {
-    color: var(--text-color);
-    line-height: 14px;
-    font-size: 1.4rem;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-.proposal__title h2 {
-    margin-top: 20px;
-    line-height: 36px;
-    color: var(--black-color);
-    font-size: 3.6rem;
-    font-weight: bold;
-}
-
-.text-highlight.highlight-green::after {
-    background-color: var(--green-color);
-}
-
 
 .proposal__item-wrapper {
     width: 100%;
@@ -513,9 +473,7 @@
     color: var(--red-color);
 }
 
-.text-highlight.highlight-red::after {
-    background-color: var(--red-color);
-}
+
 
 /*------------- container__slider -------------*/
 
@@ -542,10 +500,6 @@
     line-height: 36px;
     font-size: 3.6rem;
     margin-bottom: 30px;
-}
-
-.text-highlight.highlight-blue::after {
-    background-color: var(--blue-color);
 }
 
 .container__slider--content p {
@@ -770,4 +724,189 @@
 
 .container__discover--button {
     margin-top: 40px;
+}
+
+/* ---------------------- */
+.container__promotions {
+    margin-top: 60px;
+}
+
+.promotions__element-wrapper {
+    width: 100%;
+}
+
+.promotions__element {
+    width: 100%;
+    padding: 15px;
+}
+
+.promotions__item {
+    width: 100%;
+    border: 1px solid #f1f1f1;
+}
+
+.promotions__item-img {
+    width: 100%;
+    position: relative;
+}
+
+.promotions__item-img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.promotions__item-logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    bottom: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.promotions__item-logo--yellow {
+    background: linear-gradient(to right, var(--yellows-color) 0%, #ff9b05 100%)
+}
+
+.promotions__item-logo--red {
+    background: linear-gradient(to right, var(--red-color) 0%, #f78d65 100%)
+
+}
+
+.promotions__item-logo--purple {
+    background: linear-gradient(to right, var(--purple-color) 0%, #da717b 100%)
+
+}
+
+.promotions__item-logo img {
+    width: 26px;
+}
+
+.promotions__item-content {
+    padding: 30px;
+}
+
+.promotions__item-name {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.promotions__item-name h3 {
+    font-size: 2.1rem;
+    line-height: 2.1rem;
+}
+
+.promotions__item-location {
+    margin-top: 10px;
+    display: flex;
+    text-decoration: none;
+}
+
+.promotions__item-location img {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.promotions__item-location h5 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: var(--text-color);
+}
+
+.promotions__item-info {
+    margin-top: 20px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.promotions__item-info a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.promotions__item-info a > h6 {
+    text-transform: uppercase;
+    font-size: 1.235rem;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.promotions__type-02 {
+    display: flex;
+    height: 27px;
+    align-items: center;
+}
+
+.promotions__sticker {
+    margin-left: 10px;
+    padding: 2px 8px;
+    border-radius: 30px;
+    color: var(--white-color);
+    letter-spacing: 1px;
+    height: 15.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promotions__sticker--yellow {
+    background-color: var(--yellows-color);
+}
+
+.promotions__sticker--red {
+    background-color: var(--red-color);
+}
+
+.promotions__sticker--purple {
+    background-color: var(--purple-color);
+}
+
+.promotions__item-price h2 {
+    font-size: 2.45rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.promotions__item-review {
+    margin: 20px 0;
+    color: var(--text-color);
+    font-size: 1.49rem;
+    letter-spacing: 1.5px;
+    line-height: 28px;
+}
+
+.promotions__btn {
+    padding: 5px 20px;
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    line-height: 27px;
+    border-radius: 30px;
+}
+
+.promotions__btn-yellow {
+    background-color: var(--yellows-color);
+}
+
+.promotions__btn-red {
+    background-color: var(--red-color);
+}
+
+.promotions__btn-purple {
+    background-color: var(--purple-color);
+}
+
+.promotions__item-price--discount {
+    font-size: 2rem;    
 }
