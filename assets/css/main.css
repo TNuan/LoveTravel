@@ -910,3 +910,159 @@
 .promotions__item-price--discount {
     font-size: 2rem;    
 }
+
+.promotions__item--sale-ticket {
+    position: absolute;
+    padding: 4px 12px 3px;
+    display: inline-block;
+    top: 20px;
+    right: 20px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+/* --------------------footer--------------------- */
+.footer {
+    margin-top: 60px;
+    background: url(../img/background-footer.jpg) center/ cover no-repeat;
+
+}
+
+.footer-inner {
+    padding: 0 30px 80px; 
+}
+
+.footer__sendbox {
+    padding-top: 80px;
+
+}
+
+.sendbox__title h3{
+    color: var(--text-color);
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.sendbox__title {
+    color: var(--black-color);
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+}
+
+.sendbox__form {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sendbox__input {
+    padding: 10px 20px;
+    width: 250px;
+    outline: none;
+    border: transparent;
+    font-size: 1.85rem;
+    color: var(--text-color);
+    line-height: 23px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.sendbox__btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 23px;
+    letter-spacing: 2px;
+    border-radius: 25px;
+}
+
+.footer__about {
+    background-color: var(--white-color);
+    padding: 35px 30px;
+    margin-top: 60px;
+}
+
+.footer__logo img {
+    margin-top: 14px;
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+.footer__review-wp {
+    padding: 0 25px 0 15px;
+}
+
+.footer__review p{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    line-height: 27px;
+}
+
+.footer__social{
+    margin-top: 25px;
+
+}
+
+.footer__social a {
+    text-decoration: none;
+}
+
+.footer__social i{
+    font-size: 2.2rem;
+    color: var(--black-color);
+    margin-right: 20px;
+}
+
+.footer__list-wp h6{
+    margin-top: 25px;
+    color: var(--black-color);
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.footer__list {
+    margin-top: 35px;
+}
+
+.footer__list p {
+    color: var(--text-color);
+    font-size: 1.45rem;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+.footer__list i {
+    font-size: 0.9rem;
+}
+
+.footer__copyright {
+    background-color: var(--blue-color);
+}
+
+.copyright__content {
+    padding: 20px;
+}
+
+.copyright__content h6 {
+    color: var(--white-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.2rem;
+}
+
+.copyright__content--right h6{
+    text-align: right;
+}
