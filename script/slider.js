@@ -32,3 +32,5 @@ function currentSlide(n) {
     slideIndex = n
     showSlide()
 }
+
+/* ádfjádgaklsdgfjk */
