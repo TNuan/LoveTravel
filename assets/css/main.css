@@ -182,6 +182,7 @@
     color: var(--white-color);
     font-size: 6rem;
     text-align: center;
+    line-height: 56px;
 }
 
 
@@ -194,6 +195,7 @@
     text-align: center;
     font-weight: 300;
     letter-spacing: 4px;
+    line-height: 20px;
 }
 
 .slider__search {
@@ -253,7 +255,7 @@
 
 .section__item {
     height: 135px;
-    width: 142.5px;
+    width: 100%;
     padding: 15px;
     
 }
@@ -273,7 +275,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 40px;
 }
 
 .section__item-name {
@@ -332,7 +334,6 @@
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
-
 
 .proposal__logo {
     position: absolute;
@@ -972,7 +973,7 @@
 
 .sendbox__input {
     padding: 10px 20px;
-    width: 250px;
+    width: 100%;
     outline: none;
     border: transparent;
     font-size: 1.85rem;
@@ -992,6 +993,7 @@
     line-height: 23px;
     letter-spacing: 2px;
     border-radius: 25px;
+    text-align: center;
 }
 
 .footer__about {
