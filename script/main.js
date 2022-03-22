@@ -1,11 +1,11 @@
-var slideIndex
+/* var slideIndex
 
 function showSlide() {
     var i
     var slides = document.getElementsByClassName('slideshows__img')
     var bullets = document.getElementsByClassName('bullet')
 
-    /* console.log(slides[1]) */
+    console.log(slides[1])
     for(i = 0; i < slides.length; i++) {
         slides[i].style.zIndex = "18"
     }
@@ -23,7 +23,7 @@ function showSlide() {
         slideIndex = 0
     }
 
-    setTimeout(showSlide, 10000)
+    setTimeout(showSlide, 5000)
 }
 
 showSlide(slideIndex = 0)
@@ -31,6 +31,10 @@ showSlide(slideIndex = 0)
 function currentSlide(n) {
     slideIndex = n
     showSlide()
-}
+} */
 
 /* ádfjádgaklsdgfjk */
+
+// ------------ Menu handle --------------------------------
+ 
+
